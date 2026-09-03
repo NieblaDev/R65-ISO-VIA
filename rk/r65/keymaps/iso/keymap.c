@@ -7,6 +7,18 @@
 
 #include QMK_KEYBOARD_H
 
+
+// This fixes error with new rgb codes for QMK, thanks Franco! :)
+#define RGB_TOG QK_RGB_MATRIX_TOGGLE
+#define RGB_MOD QK_RGB_MATRIX_MODE_NEXT
+#define RGB_HUI QK_RGB_MATRIX_HUE_UP
+#define RGB_HUD QK_RGB_MATRIX_HUE_DOWN
+#define RGB_VAI QK_RGB_MATRIX_VALUE_UP
+#define RGB_VAD QK_RGB_MATRIX_VALUE_DOWN
+#define RGB_SPI QK_RGB_MATRIX_SPEED_UP
+#define RGB_SPD QK_RGB_MATRIX_SPEED_DOWN
+
+
 enum layer_names {
     _BASE,       // 0
     _BASE_FN,    // 1
