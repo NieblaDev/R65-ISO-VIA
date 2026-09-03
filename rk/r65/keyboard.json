@@ -154,7 +154,6 @@
             {"matrix": [0, 13], "x": 224, "y": 64, "flags": 4}
         ]
     },
-    "url": "",
     "usb": {
         "device_version": "0.1.0",
         "force_nkro": true,
